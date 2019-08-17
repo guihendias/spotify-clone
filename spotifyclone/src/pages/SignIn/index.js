@@ -1,5 +1,5 @@
 import React from 'react';
-import {darken} from 'polished';
+import { darken } from 'polished';
 import {
   LogoContainer,
   Logo,
@@ -15,7 +15,7 @@ import Background from '~/components/Background';
 import colors from '~/util/colors';
 import logo from '~/assets/logo.png';
 
-export default function Login({navigation}) {
+export default function Login({ navigation }) {
   return (
     <Background>
       <LogoContainer>
@@ -25,7 +25,7 @@ export default function Login({navigation}) {
         <Info>{`Milhões de músicas à sua escolha.\nGrátis no Spotify.`}</Info>
       </InfoContainer>
       <ButtonContainer>
-        <Button background={darken(colors.primary)}>
+        <Button background={darken(0.05, colors.primary)}>
           <ButtonText>INSCREVA-SE GRÁTIS</ButtonText>
         </Button>
         <Button background="#3C5A99">
